@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ani.css">
+   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>인트로 영상 삽입버전</title>
+</head>
+<body>
+    <div class="loading">
+    <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+</body>
+
+<script>
+    $(window).ready(function(){
+        $(".loading").delay(3000).fadeOut();
+    });
+</script>
+</html>
